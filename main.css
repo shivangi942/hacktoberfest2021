@@ -1,3 +1,83 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=PT+Serif&family=Poppins:wght@300&family=Source+Serif+Pro&display=swap');
 
+:root{
+    font-family: 'Merriweather', serif;
+}
+
+body{
+    background-color: #2B3531;
+
+}
+
+h1{
+    color: #F74700;
+    text-align: center;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Source Serif Pro', serif;
+
+    
+}
+
+p{
+    color: #A88771;
+    margin: 1rem 2rem;
+    text-align: center;
+}
+
+h2{
+    color: #B53A25;
+    text-align: center;
+    font-weight: bolder;
+    font-family:'PT Serif', serif;
+}
+
+.btn{
+    background-image: linear-gradient(#91A88C, #677662);
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 2rem;
+    border: 2px solid #F74700;
+    box-shadow: 5px 5px 10px black;
+}
+
+ol{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+}
+
+ol li{    
+    margin: 1rem 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(#677662 ,#91A88C);
+    width: max-content;
+    height: 2rem;
+    background-color: aliceblue;
+    box-shadow: 7px 7px 7px #2e150b;
+}
+
+li:hover{
+    transform: scale(1.2);
+    background-image: linear-gradient(#A88771, #B53A25);
+    border-radius: 0.5rem;
+}
+a:link{
+    color: #2B3531;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    transform: scale(1.2);
+    color: white;
+    
+}
+
+a:visited{
+    color: black;
 }
